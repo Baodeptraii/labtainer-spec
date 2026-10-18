@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "mode": "retest",
+  "steps": [8, 9, 10],
+  "source_html": "../inputs/example-lab.html",
+  "imodule_url": "https://example.org/labs/example-lab.tar",
+  "workspace": "../workspaces/example-run",
+  "report_directory": "../workspaces/example-run/report",
+  "student_id": "REPLACE_ME",
+  "connection": {
+    "host": "REPLACE_ME",
+    "port": 22,
+    "username": "REPLACE_ME",
+    "password_env": "LABTAINER_SSH_PASSWORD",
+    "known_hosts": "REPLACE_ME",
+    "display": ":0",
+    "student_window": "",
+    "framework_directory": "",
+    "student_directory": ""
+  },
+  "cover": {
+    "reviewer": "",
+    "course": "",
+    "course_code": "",
+    "instructor": "",
+    "term": ""
+  }
+}
